@@ -48,15 +48,15 @@ import { println } from "sclr:io";
 func u32 factorial(u32 num) {
   if (num == 0) return 1;
 
-  var u32 fact = 1;
-  for (var u32 i = 1; i <= num; i++) {
+  t_u32 fact = 1;
+  for (t_u32 i = 1; i <= num; i++) {
     fact *= i;
   }
   return fact;
 }
 
 func void main() {
-  var u32 fact = factorial(5);
+  t_u32 fact = factorial(5);
   println("${fact}");
 }
 ```
