@@ -48,7 +48,7 @@ import { println } from "sclr:io";
 func t_u32 factorial(t_u32 num) {
   if (num == 0) return 1;
 
-  t_u32 fact = 1;
+  mut t_u32 fact = 1;
   for (t_u32 i = 1; i <= num; i++) {
     fact *= i;
   }
