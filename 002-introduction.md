@@ -45,7 +45,7 @@ Here's an example program in Scelera that calculates and prints the factorial of
 ```
 import { println } from "sclr:io";
 
-func u32 factorial(u32 num) {
+func t_u32 factorial(t_u32 num) {
   if (num == 0) return 1;
 
   t_u32 fact = 1;
